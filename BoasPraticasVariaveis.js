@@ -10,3 +10,6 @@ console.log(Idade)
 
 const nome = "Ricardo";
 let ano = 2020;
+
+//  não fazer
+//mes = "Janeiro"
