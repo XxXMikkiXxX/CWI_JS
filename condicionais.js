@@ -1,10 +1,8 @@
-console.log(`Trabalhando com listas`);
+console.log(`Trabalhando com condicionais`);
 
 // const salvador = `Salvador`
 // const saoPaulo = `São Paulo`
 // const rioDeJaneiro = `Rio de Janeiro`
-
-console.log("Destinos possíveis");
 //console.log(salvador, saoPaulo, rioDeJaneiro);
 
 //array
@@ -16,13 +14,16 @@ const listasDeDestinos = new Array(
     `Curitiba`
 
 );
-
-listasDeDestinos.push( `Brasília`); //adicionado item ao Array
 console.log(listasDeDestinos)
+const idadeComprador = 15;
 
+if (idadeComprador >= 18){
+    console.log("Comprador maior de idade")
+    listasDeDestinos.splice(1,1); // remover se for maior de idade
+} else{
+    console.log("Não é permitida a compra de passagens por menores de idade");
+}
 
-listasDeDestinos.splice(1,1) // removendo item do array, posiçao iniciada em 0 e número de elementos a serem excluídos
 console.log(listasDeDestinos);
 
-console.log(listasDeDestinos[1]); //imprimir determiandos itens do Array
 
